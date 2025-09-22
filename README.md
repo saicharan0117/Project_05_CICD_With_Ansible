@@ -63,8 +63,7 @@ Creating a Jenkins pipeline to:
 2. **Terraform Scripts:** Scripts to create the necessary AWS infrastructure (VPC, subnets, security groups, EC2 instances(UTIL Server (Git, Jenkins, ansible, docker, maven, sonarqube, trivy components), App server (EKS Cluster))).
 
 ## FLOW CHART:
-
-![Flow Chart](flow-chart.png)
+<img width="1452" height="811" alt="image" src="https://github.com/user-attachments/assets/73fe0a4e-ad8c-4104-9456-34bbd7826707" />
 
 ## Detailed Flow:
 
