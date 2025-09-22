@@ -1,5 +1,4 @@
 
-
 ## OBJECTIVE:
 
 The primary objective of this project is to establish a robust CI/CD pipeline that automates the process of building, testing, and deploying applications by integrating Git, Jenkins, Maven, SonarQube, Docker Hub, Ansible, Kubernetes (EKS) and Terraform, the project aims to achieve the following goals:
@@ -174,7 +173,7 @@ https://releases.hashicorp.com/terraform/1.8.5/terraform_1.8.5_windows_386.zip
 3. Install plugins: ansible, pipeline stage view
 4. **Add ansible installation in tools**
 
-![Ansible Installation in Tools](ansible-installation-tools.png)
+<img width="1228" height="600" alt="image" src="https://github.com/user-attachments/assets/9d69ee1f-4914-4e97-b5ca-fd421d39e8ad" />
 
 5. Integrate Maven for building Java applications and SonarQube for static code analysis.
 
@@ -217,13 +216,12 @@ https://releases.hashicorp.com/terraform/1.8.5/terraform_1.8.5_windows_386.zip
 
 7. Deploy applications to the EKS cluster using Ansible playbook.
 
-![Jenkins Pipeline Stages](jenkins-pipeline-stages.png)
+<img width="1430" height="599" alt="image" src="https://github.com/user-attachments/assets/8c93f9f7-d9c9-4580-9712-55078bf13596" />
 
-![K8s Deployment using Ansible](k8s-deployment-ansible.png)
+<img width="1406" height="691" alt="image" src="https://github.com/user-attachments/assets/6f69402f-2a13-44a2-b306-b81b0c8e030a" />
 
-![Jenkins Stage View](jenkins-stage-view.png)
+<img width="1559" height="413" alt="image" src="https://github.com/user-attachments/assets/5f6e9132-14c9-477d-93e5-709da0437b84" />
 
-![Kubectl Get All Status](kubectl-get-all.png)
 
 ## Application Access
 
