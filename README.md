@@ -1,4 +1,4 @@
-```markdown
+
 
 ## OBJECTIVE:
 
@@ -231,4 +231,4 @@ https://releases.hashicorp.com/terraform/1.8.5/terraform_1.8.5_windows_386.zip
 **Paste it on your browser and see your application:**
 
 **Loadbalancer url:** a2a5e5f083b26430fadf920fe4f2a782-1459326598.us-east-1.elb.amazonaws.com
-```
+
