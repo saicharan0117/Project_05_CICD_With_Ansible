@@ -11,7 +11,7 @@ resource "aws_key_pair" "Key-Pair" {
   key_name = "MyKey"
 
   # Adding the SSH authorized key !
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrCCCltkvebReWfi/ON98yZLyMeuZrKpMZF+tJGdfGYz8BSX00DLtYATUT5OqE++8Dpf8qInxJQ1s4LAN7mCkiiJMTL+gaHZB54SX1vAZGzZxz+x0UawponRTsNXTyooTz3B3H8KAsLAcgg+NU7IwrEKIQKDGGkT0K//654DoUyXOWU1s2JfiCh9bskHH1eOqMdz4RNNEJVxsNMg8+gUftfajipo8+WyCd0uVEoS66Laiag6LjNgKB8W0tG7CNr0yhB3zqX2uaBdHfjXNbs7ajK8A1kL+nK2MDdueSIDMvhyKg+1BLc90NJYXOS7vm6QKdMsXI56XeJsGk3e7ZEhmNAJMj1elS503a//1aH21ZxxMXwN0o5WOELrAOk/QhHgxCRISbFC0lKi45LNpJcb2WbD2gZ/QHOpcYDW5Qgjdo9a8ohMzdfA6eq4LYtEA8S0hNHEkqP24DgJgoQErcXXzMXv8DnPPPeHmiM+7UPmR04QPmyohJmUvw0d6gZ7CjbPE8LYoXeRQDP6zY5dlT4If8VFLp7avlxqkJPURFmDJ/s4BeU6wfZn+5aDtjsWopC2mpBwdHeGppNlQOv1D9QDM6y4NNC0lQTZNaPGPphcTPjAVgfGv44eNOGyNvMDLsycul2Pe0IfTb0yx1+lgYwEz3u5JSuu7zz/XNKfQllFRV3w== saicharankatukam@Sais-MacBook-Air.local"
 
 }
 
