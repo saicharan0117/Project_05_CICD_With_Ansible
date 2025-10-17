@@ -11,7 +11,7 @@ resource "aws_key_pair" "Key-Pair" {
   key_name = "MyKey"
 
   # Adding the SSH authorized key !
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCbLsQRZ1UnHLYAkkvZKAu6s6l12V+e93CWa2/WszwzgLsUXnJwx/pYgj3qDGwIJxTDDqRWs++xdI3b89oki4AjBxOTTw7/S+2W8PEnArv5g0gmrdXYaxmg/qbpy8dVec+/7lczZ0QvkI47PVZFIgQmstewKNkSDrvotaOsd5upVfC0exzRk0g0xrDMLPNuSyCodkNfYS4qj6sD7V51yqji0xAbBY23Lh+d5oPhKL2AVzdvgm2bK+y+PvXfher3aWGvj0il9NWL3I5EF0qD1/LTwe/nMZ4bNAk6zJFGwR8SReMW3YU97A8MeWFirg7otcCOO00t4sb5s8SxySnHXwEkjOmYOqtz6au18C5xNGY7zKKnZm55UpoVVS81D16B1nccUC3e34iHTjCIlr+DL2XObiYALJ+waYN5ERhU0cu+FClAHa1J8Mf7xO1+9ShU3hZrVN3oV0AwCzN1fzjs3qQ04iP/DjKoIoTFcoOn+WMnOjB91fGYAGZ1OPbyDBJbr8k= Dell@DESKTOP-B69EJFC"
+  public_key = file("~/.ssh/id_rsa.pub")
 
 }
 
@@ -214,7 +214,7 @@ resource "aws_instance" "jenkins" {
     aws_security_group.JENKINS-SG
   ]
 
-  ami           = "ami-01b799c439fd5516a" 
+  ami           = "ami-0341d95f75f311023" 
   # amazoon-linux
   instance_type = "t2.large"
   subnet_id     = aws_subnet.subnet1.id
@@ -271,8 +271,7 @@ resource "aws_instance" "MyApp" {
   ]
 
   # i.e. MyApp Installed!
-  ami           = "ami-01b799c439fd5516a" 
-  # amazoon-linux
+  ami           = "ami-0341d95f75f311023"  # amazoon-linux
   instance_type = "t2.large"
   subnet_id     = aws_subnet.subnet1.id
 
