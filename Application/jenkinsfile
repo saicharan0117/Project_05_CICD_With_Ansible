@@ -6,7 +6,7 @@
         stage('Checkout Code') {
             steps {
                 echo 'scm git'
-                git branch: 'main', url: 'https://github.com/devopstraininghub/REALTIMEPROJECT.git'
+                git branch: 'main', url: 'https://github.com/saicharan0117/Project_05_CICD_With_Ansible.git'
             }
         }
     	
