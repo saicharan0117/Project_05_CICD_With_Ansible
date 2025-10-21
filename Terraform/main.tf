@@ -214,7 +214,7 @@ resource "aws_instance" "jenkins" {
     aws_security_group.JENKINS-SG
   ]
 
-  ami           = "ami-01b799c439fd5516a" 
+  ami           = "ami-0341d95f75f311023" 
   # amazoon-linux
   instance_type = "t2.large"
   subnet_id     = aws_subnet.subnet1.id
@@ -271,7 +271,7 @@ resource "aws_instance" "MyApp" {
   ]
 
   # i.e. MyApp Installed!
-  ami           = "ami-01b799c439fd5516a" 
+  ami           = "ami-0341d95f75f311023" 
   # amazoon-linux
   instance_type = "t2.large"
   subnet_id     = aws_subnet.subnet1.id
