@@ -24,8 +24,8 @@
                 echo 'scanning project'
                 sh 'ls -ltr'
                 sh '''cd Application && mvn sonar:sonar \\
-                      -Dsonar.host.url=http://3.92.165.67:9000 \\
-                      -Dsonar.login=squ_1ed7440050e2a1369d5dbf845cd67bae3850d9bc'''
+                      -Dsonar.host.url=http://3.87.221.16:9000 \\
+                      -Dsonar.login=squ_c72faca7245a11728e122d24e61a9b6d374772a6'''
             }
     	}
        stage('Build docker image'){
